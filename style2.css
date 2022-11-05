@@ -1,0 +1,46 @@
+.mobile-menu-icon {
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.mobile-menu-icon > span {
+  background-color: black;
+  width: 35px;
+  height: 2px;
+  display: block;
+  margin-bottom: 9px;
+  transition: transform 0.7s;
+}
+.mobile-menu-icon > span:nth-child(3) {
+  margin-bottom: 20px;
+}
+.mobile-menu-icon > span:last-child {
+  margin-bottom: 0;
+}
+
+.menu-open {
+  background-color: black;
+}
+.menu-open .mobile-menu-icon > span {
+  background-color: White;
+}
+.menu-open .mobile-menu-icon > span:nth-child(1) {
+  transform: translateY(11px) rotate(135deg);
+}
+.menu-open .mobile-menu-icon > span:nth-child(2) {
+  transform: translateX(-18px) scale(0);
+}
+.menu-open .mobile-menu-icon > span:nth-child(3) {
+  transform: translateY(-11px) rotate(-135deg);
+}
+.menu-open .mobile-menu-icon > span:nth-child(4) {
+  transform: translateY(11px) rotate(135deg);
+}
+.menu-open .mobile-menu-icon > span:nth-child(5) {
+  display: none;
+}
+.menu-open .mobile-menu-icon > span:nth-child(6) {
+  transform: rotate(-135deg);
+}/*# sourceMappingURL=style2.css.map */
